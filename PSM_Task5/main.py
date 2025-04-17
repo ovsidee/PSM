@@ -10,8 +10,8 @@ R_earth_moon = 384400e3         # Distance Earth-Moon [m]
 T_earth = 365.25 * 24 * 3600    # Orbital period of Earth [s]
 T_moon = 27.32 * 24 * 3600      # Orbital period of Moon [s]
 
-omega_earth = 2 * np.pi / T_earth # Angular velocity Earth
-omega_moon = 2 * np.pi / T_moon # Angular velocity Moon
+omega_earth = 2 * np.pi / T_earth   # Angular velocity Earth
+omega_moon = 2 * np.pi / T_moon     # Angular velocity Moon
 
 dt = 100 # Time step [s]
 total_time = T_earth # Simulate one Earth year
